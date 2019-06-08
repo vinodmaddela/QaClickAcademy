@@ -24,7 +24,7 @@ Scenario: Home page default login
 Scenario: Home page default login 
 	Given User is on NetBanking landing page 
 	When User sign up with following details 
-		| jenny | abcd | john@abcd.com |Australia | 3242353|
+		| jenny | abcd | john@abcd.com |Australia |
 	Then Home page is populated 
 	And Cards displayed are "false" 
 	
